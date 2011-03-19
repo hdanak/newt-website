@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    font-family: Verdana;
+}
+h3 {
+    margin: 0px;
+    font-family: Comic Sans MS;
+}
+h2, h4 {
+    margin: 0px;
+    font-family: Helvetica;
+}
+hr {
+    color: #808080;
+    width: 75%;
+    height: 1px;
+    border: 1px dotted ;
+    border-style: none none dotted;
+    padding-top: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#newt-title {
+    float:left;
+}
+#newt-title a {
+    text-decoration: none;
+    color: black;
+}
+#newt-title img{
+    padding: 5px;
+}
+
+#navbar {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+    margin-bottom: -5px;
+    margin-top: -12px;
+    font-size: 13.5px;
+}
+#navbar ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+#navbar li {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+#navbar a:hover {
+    color: orange;
+}
+
+#page-bubble {
+    background-color: #FAFAFA;
+    width: 800px;
+    margin: 20px;
+    margin-top: 0px;
+    overflow: auto;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+.newt-block {
+    float: left;
+    margin: 0px;
+    margin-bottom: 5px;
+    background-color: #EEE;
+    border-radius: 4px;
+    padding: 7px;
+    padding-left: 9px;
+}
+#newt-intro {
+    font-size: 15px;
+    line-height: 21px;
+    background-color: #BEDCE7;
+    //text-align: justify;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+#newt-basics {
+    float: right;
+    margin: -10px;
+    margin-left: 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #C1EDD2;//BEDCA7;
+    padding: 10px;
+    padding-right: 0.5em;
+    padding-left: 1em;
+}
+.linenodiv {
+    line-height: 100%;
+    color:grey;
+}
+
+#newt-body {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#subnavbar {
+    width: 100%;
+    background-color: #444;
+    text-align: left;
+    padding: 0px;
+//    margin-left: 5px;
+//    border-radius: 4px;
+//    padding: 7px;
+//    padding-left: 10px;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#subnavbar ul {
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+#subnavbar li {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+#subnavbar a {
+}
+#subnavbar a:hover {
+    color: orange;
+}
+
+#content {
+    padding: 30px;
+}
+#newt-content {
+    float: left;
+    width: 100%;
+    //width: 440px;
+    //width: 582px;
+    //width: 72.8%;
+    background-color: #E0E0E0;//#D0D0D0;//#96A7AD;
+    padding: 0px;
+}
+#newt-footer {
+    clear: both;
+    float: none;
+    margin-bottom: 0px;
+    background-color: silver;
+}
+
+.clear {
+    clear: both;
+}
+.float {
+    float: left;
+}
+
+// vim: ts=4 sts=4 sw=4 et
