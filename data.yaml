@@ -1,0 +1,85 @@
+---
+intro: Newt is a high-level programming language with a focus on speed and utility, both in development and runtime. Newt is designed with performance in mind, dismissing the idea that there must be a trade-off between speed and expressiveness. The modular Newt compiler is designed to target various back-ends, or even translate your code to other languages. Designed with TMTOWTDI in mind, Newt doesn't try to force you into a single programming paradigm or style, and has built-in support for common programming styles such as functional and object-oriented programming.
+
+basics: |
+  # Hello World!
+  say('Hello World!')
+  # Scalars
+  my \$n = 3 * 2
+  # Lists
+  my @l = [1, 2, 3]
+  # ... of any kind
+  my @ll = LinkedList(1, 2, 3)
+  # K-V Maps and Sets
+  my %h = {a => 1, b => 2}
+  my %s = {1, 2, 3..}
+
+navbar-extra:
+  Source: "http://github.com/hdanak/newt"
+
+index_content: #index/news
+
+index_news_content: |
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Newt is a high-level programming language with a focus on speed and utility, both in development and runtime. Newt is designed with performance in mind, dismissing the idea that there must be a trade-off between speed and expressiveness. The modular Newt compiler is designed to target various back-ends, or even translate your code to other languages. Designed with TMTOWTDI in mind, Newt doesn't try to force you into a single programming paradigm or style, and has built-in support for common programming styles such as functional and object-oriented programming.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+  <hr />
+  <h2>Some stupid post</h2>
+  <h4>Yadda yadda ...</h4>
+  <p>
+    Some dumb paragraph content.
+  </p>
+
+learn_content: #learn/intro
+
+learn_intro_content: Learn Newt...
+
+development_content: |
+  The source code for the Newt compiler is currently hosted on GitHub, where you'll also find a wiki.
+
+
+# vim: ts=2 sts=2 sw=2 et
