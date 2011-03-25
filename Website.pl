@@ -5,7 +5,7 @@ use strict;
 
 do 'Template.pl';
 
-my $outdir = '/home/public/out';
+my $outdir = '/home/public';
 foreach my $page (@Template::pages) {
 	my $fname = Template::path_to_filename($page);
 	print "Creating $page at $outdir/$fname... ";
@@ -14,3 +14,9 @@ foreach my $page (@Template::pages) {
 	close($outfile);
 	print "[done]\n";
 };
+
+my @aux_pages = qw( style.css newt-logo.png );
+
+foreach (@aux_pages) {
+	system("cp $_ $outdir/$_");
+}
