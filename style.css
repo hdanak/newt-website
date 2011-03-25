@@ -79,14 +79,13 @@ a {
     padding-left: 9px;
 }
 #newt-intro {
-    font-size: 15px;
     line-height: 21px;
     background-color: #BEDCE7;
     //text-align: justify;
     padding: 20px;
     margin-bottom: 5px;
     font-family: Helvetica;
-    font-size: 15px;
+    font-size: 17px;
 }
 #newt-basics {
     float: right;
