@@ -9,7 +9,7 @@ basics: |
   # Lists
   my @l = [1, 2, 3]
   # ... of any kind
-  my @ll = LinkedList(1, 2, 3)
+  my LinkedList @ll = (1, 2, 3)
   # K-V Maps and Sets
   my %h = {a => 1, b => 2}
   my %s = {1, 2, 3..}
