@@ -10,7 +10,7 @@ basics: |
   my %h = {a => 1, b => 2}
   print(%h.a) # or %h{a}
   # Infinite Lists and Sets
-  @l = [ $x | $x > 2 ]
+  @l = [ \$x | \$x > 2 ]
   %s = {1, 2, 3..}
 
 navbar-extra:
