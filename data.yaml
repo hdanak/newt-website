@@ -8,10 +8,10 @@ basics: |
   my \$n = 3 * 2
   # Lists
   my @l = [1, 2, 3]
-  # ... of any kind
-  my LinkedList @ll = (1, 2, 3)
-  # K-V Maps and Sets
+  # K-V Maps
   my %h = {a => 1, b => 2}
+  print %h.a # or %h{a}
+  # ... and Sets
   my %s = {1, 2, 3..}
 
 navbar-extra:
