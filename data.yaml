@@ -23,7 +23,7 @@ index_news_content: |
   <h2>Some stupid post</h2>
   <h4>Yadda yadda ...</h4>
   <p>
-    Newt is a high-level programming language with a focus on speed and utility, both in development and runtime. Newt is designed with performance in mind, dismissing the idea that there must be a trade-off between speed and expressiveness. The modular Newt compiler is designed to target various back-ends, or even translate your code to other languages. Designed with TMTOWTDI in mind, Newt doesn't try to force you into a single programming paradigm or style, and has built-in support for common programming styles such as functional and object-oriented programming.
+    Newt is a high-level programming language with a focus on speed and utility, both in development and runtime. Newt is designed with performance in mind, dismissing the idea that there must be a trade-off between speed and expressiveness. The modular Newt compiler is designed to target various back-ends, or even translate your code to other languages. Designed with TIMTOWTDI in mind, Newt doesn't try to force you into a single programming paradigm or style, and has built-in support for common programming styles such as functional and object-oriented programming.
   </p>
   <hr />
   <h2>Some stupid post</h2>
