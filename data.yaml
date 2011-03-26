@@ -2,16 +2,16 @@
 intro: Newt is a dynamic programming language with a focus on speed and utility. Newt is designed to run fast without having you micromanage low-level details, optimizing your code with information available at both compile-time and runtime. This decouples the expressiveness of the language from the mechanism you decide to use, i.e. dynamic typing or polymorphism. While Newt has support for object-oriented and functional programming, it doesn't try to force you into any single programming paradigm or style.
 
 basics: |
-  # Hello World!
+  # Hello!
   say('Hello World!')
-  # Scalars
+  # Scalars, Lists, and Maps
   my \$n = 3 * 2
-  # Lists
   my @l = [1, 2, 3]
-  # K-V Maps and Sets
   my %h = {a => 1, b => 2}
   print(%h.a) # or %h{a}
-  my %s = {1, 2, 3..}
+  # Infinite Lists and Sets
+  @l = [ $x | $x > 2 ]
+  %s = {1, 2, 3..}
 
 navbar-extra:
   Source: "http://github.com/hdanak/newt"
