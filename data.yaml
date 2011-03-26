@@ -11,7 +11,7 @@ basics: |
   print(%h.a) # or %h{a}
   # Infinite Lists and Sets
   @l = [1, 2, 3..]
-  %s = {$x | $x > 2}
+  %s = {\$x | \$x > 2}
 
 navbar-extra:
   Source: "http://github.com/hdanak/newt"
