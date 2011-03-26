@@ -158,7 +158,7 @@ sub path_to_filename {
 
 sub tc {
 	my ($str) = @_;
-	$str =~ s/(\w+)/\u\L$1/g;
+	$str =~ s/(\w+)/\u$1/g;
 	return $str;
 }
 
