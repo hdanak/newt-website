@@ -8,10 +8,9 @@ basics: |
   my \$n = 3 * 2
   # Lists
   my @l = [1, 2, 3]
-  # K-V Maps
+  # K-V Maps and Sets
   my %h = {a => 1, b => 2}
-  print %h.a # or %h{a}
-  # ... and Sets
+  print(%h.a) # or %h{a}
   my %s = {1, 2, 3..}
 
 navbar-extra:
