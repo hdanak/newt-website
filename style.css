@@ -65,6 +65,8 @@ a {
     margin-top: 0px;
     overflow: auto;
     border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
     padding: 30px;
     padding-top: 10px;
     text-align: left;
@@ -75,6 +77,8 @@ a {
     margin-bottom: 5px;
     background-color: #EEE;
     border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     padding: 7px;
     padding-left: 9px;
 }
@@ -93,6 +97,8 @@ a {
     margin-left: 15px;
     font-size: 15px;
     border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
     background-color: #C1EDD2;//BEDCA7;
     padding: 10px;
     padding-right: 0.5em;
