@@ -65,7 +65,12 @@ our $site_structure = [
 		#	{''},
 		     ]
 	},
-	{ 'documentation' },
+	{ 'documentation' => [
+				{'core library'},
+				{'user guide'},
+				{'NWDoc'},
+			     ]
+	},
 	{ 'development' => [
 				{'source' => 'https://github.com/hdanak/Newt'},
 				{'wiki'   => 'https://github.com/hdanak/Newt/wiki'},
