@@ -5,7 +5,7 @@ use strict;
 
 do 'Template.pl';
 
-my $outdir = '/home/public';
+my $outdir = './out';
 foreach my $page (@Template::pages) {
 	my $fname = Template::path_to_filename($page);
 	print "Creating $page at $outdir/$fname... ";

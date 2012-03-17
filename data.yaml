@@ -77,8 +77,11 @@ learn_content: #learn/intro
 
 learn_intro_content: |
   <h2>Introduction</h2>
-  <h4>Basic Concepts</h4>
-
+  <ol type="I">
+    <li>Comments</li>
+      <div>
+      </div>
+  </ol>
 
 development_content: |
   The source code for the Newt compiler is currently hosted on GitHub, where you'll also find a wiki.
